@@ -1,13 +1,13 @@
 import org.gradle.kotlin.dsl.support.zipTo
 
 allprojects {
-    apply plugin: 'maven'
     group = "net.prosavage.factionsx"
     version = "1.2-STABLE"
 }
 
 plugins {
     java
+    maven
     kotlin("jvm") version "1.4.21"
     id("com.github.johnrengelman.shadow") version "5.2.0"
 }
