@@ -1,6 +1,7 @@
 import org.gradle.kotlin.dsl.support.zipTo
 
 allprojects {
+    apply plugin: 'maven'
     group = "net.prosavage.factionsx"
     version = "1.2-STABLE"
 }
